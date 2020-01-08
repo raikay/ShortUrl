@@ -15,11 +15,11 @@ namespace ShortUrl.CMD
             var cen = new GenerateShortURL();
             while (true)
             {
-
+                // cen.ConfusionConvert(i) //先插入数据，产生自增ID，然后用自增ID生成随机字符串
                 //var long = md5Str.ToString()
 
                 //var val = DateTime.Now.toun + i;  //Utils.GenerateCode(6);//
-                var code = cen.ConfusionConvert(i);//GetChart(4, i+new Random().Next(1,10)+1000000);//GenerateUniqueText(4);//GetChart(4, GuidToLongID());//GetRandString(6, 90000000);// GenerateRandomCode(4);//
+                var code = Utils.GenerateCode(); // cen.ConfusionConvert(i);//GetChart(4, i+new Random().Next(1,10)+1000000);//GenerateUniqueText(4);//GetChart(4, GuidToLongID());//GetRandString(6, 90000000);// GenerateRandomCode(4);//
                 Console.WriteLine($"Num : {i}");
                 Console.WriteLine($"Code : {code}");
                 if (codeList.Contains(code))
