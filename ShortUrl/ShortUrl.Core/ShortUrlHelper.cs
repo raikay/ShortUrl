@@ -23,7 +23,7 @@ public class GenerateShortURL
     /// <summary>
     /// 短码长度        
     /// </summary>
-    private int CodeLength { get; set; } = 4;
+    private int CodeLength { get; set; } = 3;
 
     /// <summary>
     /// 注意：超过设定的长度可能会有异常数据

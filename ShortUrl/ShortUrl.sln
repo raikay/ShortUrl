@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl", "ShortUrl\ShortUrl.csproj", "{30BD18EA-51B9-42C6-B75A-09E2AAF21A7C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl.Core", "ShortUrl.Core\ShortUrl.Core.csproj", "{17C1DC72-F109-407E-85A5-C43E35A3FC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortUrl.Core", "ShortUrl.Core\ShortUrl.Core.csproj", "{17C1DC72-F109-407E-85A5-C43E35A3FC68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortUrl.CMD", "ShortUrl.CMD\ShortUrl.CMD.csproj", "{BFEB05EB-823F-4EEC-977E-7F496FEB15BC}"
 EndProject
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30BD18EA-51B9-42C6-B75A-09E2AAF21A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30BD18EA-51B9-42C6-B75A-09E2AAF21A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30BD18EA-51B9-42C6-B75A-09E2AAF21A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30BD18EA-51B9-42C6-B75A-09E2AAF21A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17C1DC72-F109-407E-85A5-C43E35A3FC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{17C1DC72-F109-407E-85A5-C43E35A3FC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C1DC72-F109-407E-85A5-C43E35A3FC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
